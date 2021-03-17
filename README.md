@@ -1,18 +1,21 @@
 # Slugify
 
-Dart package to convert a **string** to a **slug**, useful for URLs, filenames, IDs and more.
+Dart package to convert a **string** to a **slug**, useful for URLs, filenames,
+IDs and more.
+
+Forked from [slugify](https://github.com/izolate/slugify/) in order to support
+null-safety.
 
 ## Features
 
 * Removes unfavorable characters
 * Approximates replacements for characters not in the Latin alphabet
 * Options for a custom delimiter and case sensitivity
-* Supports Dart 2
 
 ## Usage
 
 ```dart
-import 'package:slugify/slugify.dart';
+import 'package:slugify_string/slugify.dart';
 
 // Use with default options.
 String slug = Slugify('Hello, World! Foo Bar');

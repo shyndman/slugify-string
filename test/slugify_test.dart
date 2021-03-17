@@ -1,5 +1,5 @@
+import 'package:slugify_string/slugify_string.dart';
 import 'package:test/test.dart' show equals, expect, test;
-import 'package:slugify/slugify.dart';
 
 void main() {
   test('returns a slugified string with default options', () {

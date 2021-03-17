@@ -1,4 +1,4 @@
-import 'package:slugify/src/replacements.dart';
+import 'replacements.dart';
 
 final _dupeSpaceRegExp = RegExp(r'\s{2,}');
 final _punctuationRegExp = RegExp(r'[^\w\s-]');
